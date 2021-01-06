@@ -3,7 +3,7 @@ const Block = require('./block')
 class Blockchain {
     constructor(difficulty = 1) {
         this.blocks = [new Block()]
-        this.index = 1
+        this.index = 0
         this.difficulty = difficulty
     }
 
